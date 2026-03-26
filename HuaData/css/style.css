@@ -1,0 +1,211 @@
+body{
+	padding-top: 50px;
+}
+
+/*导航条*/
+.navbar-default{
+	background-color: #ffffff;
+	height:70px;
+	border:none;
+	box-shadow: 0px 4px 10px #c8c8c8;
+}
+.navbar-default .navbar-brand{
+	color:#f20a0a;
+	font-size: 32px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	margin-top: 10px;
+}
+
+.navbar-default .navbar-nav > li{
+	background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color:#ff0000;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 35px;
+}
+
+.navbar-default .navbar-toggle{
+	margin-top:15px;
+}
+/*导航条*/
+
+/*轮播图*/
+#car1 .carousel-indicators{
+	left:6%;
+	bottom:0px;
+}
+
+#car1 .carousel-caption{
+	background: rgba(50,50,50,0.7);
+	right:0px;
+	left:0px;
+	padding-bottom: 4px;
+	margin-right: 5%;
+	text-align: right;
+	font-size: 16px;
+	bottom: 0px;
+	padding-right: 1%;
+}
+
+#car1 .carousel-control{
+	width:5%;
+}
+/*轮播图*/
+
+
+/*产品中心*/
+#Produce{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#Produce h2{
+	color:#FF0000;
+	font-weight: bold;
+	letter-spacing: 10px;
+	background: #F2F2F2;
+	padding: 30px 0;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	box-shadow: 0px 2px 4px 0px #AAAAAA;
+}
+
+#Produce img{
+	margin:0 auto;
+}
+
+#Produce a{
+	color:#b50909;
+}
+
+#Produce #Procon:hover{
+	background: #F3F3F3;
+	box-shadow: 0px 0px 6px 0px #333333;
+}
+
+#Produce #Procon{
+	padding: 15px;
+	transition: all 0.4s ease-in-out;
+	height:250px;
+}
+
+#Produce .caption{
+	height:50px;
+	overflow: hidden;
+	transition: all 0.4s ease-in-out;
+}
+#Produce #Procon:hover .caption{
+	height:120px;
+	transition: all 0.4s ease-in-out;
+	margin-top: -10px;
+}
+/*产品中心*/
+
+
+/*最新课程*/
+#Course{
+	text-align: center;
+}
+#Course h2{
+	color: #FF0000;
+	font-weight: bold;
+	letter-spacing: 10px;
+	background: #F2F2F2;
+	padding: 30px 0;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	box-shadow: 0px 2px 4px 0px #AAAAAA;
+	
+}
+#Course .thumbnail{
+	border-radius: 0px;
+	transition: all 0.2s ease-in-out;
+	overflow: hidden;
+}
+#Course .thumbnail img{
+	padding-top: 7px;
+	transition: all 0.4s ease-in-out;
+}
+#Course .thumbnail .btn{
+	padding: 10px 20px;
+	border-radius: 0px;
+	letter-spacing: 5px;
+}
+
+#Course .thumbnail:hover{
+	box-shadow: 0px 0px 6px 0px #FF0000;
+	transition: all 0.2s ease-in-out;
+}
+#Course .thumbnail:hover img{
+	transform: scale(1.2);
+	transition: all 0.4s ease-in-out;
+}
+/*最新课程*/
+
+/*企业文化*/
+#Culture{
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+}
+#Culture .filter{
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0,0.5);
+	color:white;
+	text-align: center;
+	padding: 30px 0;
+}
+#Culture h1{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+#Culture img{
+	margin-top: 40px;
+}
+/*企业文化*/
+
+/*技术支持*/
+#Tech{
+	background: #F2F2F2;
+	padding: 40px 0;
+}
+#Tech h2{
+	color:#FF0000;
+	font-weight: bold;
+}
+
+#Tech p{
+	line-height: 30px;
+}
+#Tech .fire-icon{
+	color:#FFFFFF;
+	width:40px;
+	height:40px;
+	background: #FF0000;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+/*技术支持*/
+
+/*联系我们*/
+#Contact{
+	background: #555555;
+	color:#FFFFFF;
+	padding: 30px 0;
+}
+#Contact h2{
+	font-weight: bold;
+}
+#Contact p{
+	line-height: 30px;
+}
+#Contact a{
+	color:#E4B9C0;
+}
+/*联系我们*/
